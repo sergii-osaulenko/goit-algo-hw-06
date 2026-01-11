@@ -2,8 +2,6 @@ import networkx as nx
 import matplotlib.pyplot as plt
 from collections import deque
 
-print("--- ПОЧАТОК ВИКОНАННЯ СКРИПТУ ---")
-
 # ==========================================
 # ЗАВДАННЯ 1: Створення та аналіз графа
 # ==========================================
@@ -118,5 +116,3 @@ dijkstra_length = nx.dijkstra_path_length(G, start_node, end_node, weight='weigh
 print(f"Найкоротший шлях (Дейкстра) від '{start_node}' до '{end_node}':")
 print(f"  Шлях: {dijkstra_path}")
 print(f"  Сумарна вага (довжина/час): {dijkstra_length}")
-
-print("\n--- ЗАВЕРШЕНО ---")
